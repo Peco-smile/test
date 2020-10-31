@@ -1,7 +1,7 @@
 <template>
   <component
     :is="tag"
-    class="display-1 v-heading mb-3 font-weight-light"
+    class="display-1 v-heading mb-3 font-weight-light font"
   >
     <slot />
   </component>
@@ -19,3 +19,10 @@
     },
   }
 </script>
+
+<style scoped>
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+  .font {
+    font-family: 'Noto Sans JP', sans-serif !important;
+  }
+</style>

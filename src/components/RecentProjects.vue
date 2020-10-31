@@ -14,13 +14,11 @@
         />
 
         <base-heading>
-          Recent Projects
+          お客様の声
         </base-heading>
 
         <base-text class="mb-5">
-          Lorem ipsum dolor sit amet, consectetur adipi<br>
-          scin elit. Etiam vulputate augue vel felis gravida<br>
-          porta. Lorem ipsum dolor sit amet.
+          デバイスホームで実現した理想の暮らしを一部ご紹介いたします
         </base-text>
 
         <v-card color="secondary">
@@ -49,7 +47,7 @@
         md="6"
       >
         <v-img
-          :src="require('@/assets/recentprojects.png')"
+          src="https://images.unsplash.com/photo-1562701447-8ec5d514a2a1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
           height="100%"
         />
       </v-col>

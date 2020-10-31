@@ -29,7 +29,7 @@
                     ]"
                     class="font-weight-black"
                   >
-                    DEVICE HOME
+                    理想の家と暮らしを創る
                   </span>
 
                   <br />
@@ -41,8 +41,8 @@
                     class="font-weight-light"
                   >
                     <strong class="red--text font-weight-bold"
-                      >今月限り！</strong
-                    >売り建て販売イベント開催！
+                      >家づくりを諦めないでほしい！</strong
+                    ><br>あなたの理想と想いを実現します
                   </span>
                 </v-col>
 

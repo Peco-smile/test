@@ -4,9 +4,9 @@
 
     <welcome />
 
-    <recent-projects />
-
     <services />
+
+    <recent-projects />
 
     <about-me />
 
@@ -24,7 +24,7 @@
       RecentProjects: () => import('@/components/RecentProjects'),
       Services: () => import('@/components/Services'),
       Welcome: () => import('@/components/Welcome'),
-      top: ()=> import('@/components/top')
+      top: ()=> import('@/components/top'),
     },
   }
 </script>

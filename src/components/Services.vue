@@ -7,7 +7,7 @@
       class="accent"
       no-gutters
     >
-      <v-col
+      <!-- <v-col
         class="hidden-sm-and-down"
         md="6"
       >
@@ -15,12 +15,12 @@
           :src="require('@/assets/services.png')"
           height="100%"
         />
-      </v-col>
+      </v-col> -->
 
       <v-col
         class="text-center pa-5"
         cols="12"
-        md="6"
+        
       >
         <v-row
           class="fill-height"
@@ -32,12 +32,12 @@
               style="transform: translateX(55%)"
             />
             <base-heading class="info--text">
-              Services
+              なぜ夢の実現が可能なのか
             </base-heading>
 
             <base-text class="mb-5">
-              Curabitur venenatis tortor erat, quis laoreet nis<br>
-              lobortis eget. Fusce tempor aucto.
+              私たちがお客様の理想を実現できる理由<br>
+              4つのポイントがあります
             </base-text>
           </v-col>
 
@@ -45,7 +45,8 @@
             v-for="(service, i) in services"
             :key="i"
             class="text-center mb-3"
-            md="6"
+            md="3"
+            cols="6"
           >
             <v-avatar
               class="elevation-6 mb-2"
@@ -81,22 +82,22 @@
     data: () => ({
       services: [
         {
-          name: 'Research',
+          name: '完全自由設計',
           icon: 'mdi-clipboard-text-outline',
           blurb: 'Curabitur et nisi semper,<br> pellent e sque ',
         },
         {
-          name: 'Design',
+          name: 'プランニング',
           icon: 'mdi-pencil-outline',
           blurb: 'Curabitur et nisi semper, <br>pellent.',
         },
         {
-          name: 'Development',
+          name: '施工技術',
           icon: 'mdi-settings-outline',
           blurb: 'Curabitur et nisi semper, <br>pellent.',
         },
         {
-          name: 'Support',
+          name: 'アフターサポート',
           icon: 'mdi-account',
           blurb: 'Curabitur et nisi semper, <br>pellent.',
         },
